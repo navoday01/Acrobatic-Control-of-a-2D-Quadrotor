@@ -1,1 +1,1 @@
-# Acrobatic-Control-of-a-2D-Quadrotor-
+# Acrobatic-Control-of-a-2D-Quadrotor
