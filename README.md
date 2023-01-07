@@ -20,11 +20,11 @@ Linearized system dynamics can be written as -
 $$\bar{x_{n+1}} = A_n\bar{x_{n}} + B_n\bar{u_{n}}$$
 where,
 
-$$A_n =  \frac{\partial f}{\partial x}$ linearized around $x_{n}^*, u_{n}^*$$, 
+$$A_n =  \frac{\partial f}{\partial x}$$ linearized around $$x_{n}^*, u_{n}^*$$, 
 
-$B_n =  \frac{\partial f}{\partial u}$ linearized around $x_{n}^*, u_{n}^*$, 
+$$B_n =  \frac{\partial f}{\partial u}$$ linearized around $$x_{n}^*, u_{n}^*$$, 
 
-$x_{n}^*, u_{n}^*$  are the desired state and desired control to follow the trajectory. 
+$$x_{n}^*, u_{n}^*$$  are the desired state and desired control to follow the trajectory. 
 
 Cost function for controller can be written as -
 $$ \sum_{n=0}^{N} (x_n - x^*_n)^TQ_n(x_n-x^*_n) + (u_n-u^*_n)^TR_n(u_n-u^*_n)$$
