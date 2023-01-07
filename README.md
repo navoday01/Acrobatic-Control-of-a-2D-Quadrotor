@@ -27,6 +27,7 @@ $B_n =  \frac{\partial f}{\partial u}$ linearized around $x_{n}^\star, u_{n}^\st
 $x_{n}^\star, u_{n}^\star$  are the desired state and desired control to follow the trajectory. 
 
 Cost function for controller can be written as -
+$$ \sum_{n=0}^{N} $$
 $$ \sum_{n=0}^{N} (x_n - x^\star_n)^TQ_n(x_n-x^\star_n) + (u_n-u^\star_n)^TR_n(u_n-u^\star_n)$$
 
 To make quadrotor follow a circle desired state at different time steps
