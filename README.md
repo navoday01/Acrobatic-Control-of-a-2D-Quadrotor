@@ -4,7 +4,7 @@ Acrobatic control of a 2D quadrotor refers to the ability of the quadrotor to pe
 <p align = 'center'>
 <img src = "assets/quadrotorcircle.gif">
 
-<img src = "https://github.com/navoday01/Acrobatic-Control-of-a-2D-Quadrotor/blob/main/assets/quadrotoracrobatic.gif">
+<img src = "assets/quadrotoracrobatic.gif">
   
 </p>  
 
