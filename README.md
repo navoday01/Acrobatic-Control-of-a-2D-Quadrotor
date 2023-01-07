@@ -10,4 +10,4 @@ Acrobatic control of a 2D quadrotor refers to the ability of the quadrotor to pe
  :--:|:--:
   *Following Trajectory* |*Doing Flip*
   
-![alt-text-1](assets/quadrotorcircle.gif "*Following Trajectory*") ![alt-text-2](assets/quadrotoracrobatic.gif "*Doing Flip*")
+![alt-text-1](assets/quadrotorcircle.gif "*Following Trajectory*" = 30%x) ![alt-text-2](assets/quadrotoracrobatic.gif "*Doing Flip*" = 30%x)
