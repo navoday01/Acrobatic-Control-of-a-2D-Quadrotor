@@ -32,18 +32,16 @@ $$\sum_{n=0}^{N} (x_n - x^\star_n)^TQ_n(x_n-x^\star_n) + (u_n-u^\star_n)^TR_n(u_
 
 To make quadrotor follow a circle desired state at different time steps
 
-                 [$begin{bmatrix}\cos{\frac{2\pi*1000}{n}}$ ]
-                 [0]   
-   $z_n^\star$ = [$\sin{\frac{2\pi*1000}{n}}$]  
-                 [0] 
-                 [0]   
-                 [0] 
+          
                  
 
 $$z_n^\star = \begin{bmatrix}\cos{\frac{2\pi*1000}{n}} \\
 0\\
 \sin{\frac{2\pi*1000}{n}} \\
-0\\0\\0\end{bmatrix}$$
+0\\
+0\\
+0\end{bmatrix}$$
+
 desired control was taken to as - 
 $$u_n^\star = \begin{bmatrix}\frac{mg}{2}\\ \frac{mg}{2}\end{bmatrix}$$
 
