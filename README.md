@@ -36,9 +36,6 @@ $$z_n^\star = \begin{bmatrix}\cos{\frac{2\pi*1000}{n}} \\
 \sin{\frac{2\pi*1000}{n}} \\
 0\\0\\0\end{bmatrix}$$
 desired control was taken to as - 
-$$u_n^* = \begin{bmatrix}\frac{mg}{2}\\ \frac{mg}{2}\end{bmatrix}$$
+$$u_n^\star = \begin{bmatrix}\frac{mg}{2}\\ \frac{mg}{2}\end{bmatrix}$$
 
-The cost function to make quadrotor follow the trajectory can be written as - 
-$$ \sum_{n=0}^{N} (x_n - x^*_n)^TQ_n(x_n-x^*_n) + (u_n-u^*_n)^TR_n(u_n-u^*_n)$$
-subjected to 
-$$\bar{x_{n+1}} = A_n\Bar{x_{n}} + B_n\Bar{u_{n}}$$
+
