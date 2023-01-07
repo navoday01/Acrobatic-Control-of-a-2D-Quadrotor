@@ -60,10 +60,7 @@ The cost function computes the total cost of trajectory $x$ with control traject
 
 The equation of time-varying cost function is given by :
 
-<img src = 'https://latex.codecogs.com/png.image?\dpi{110}J = x_{N}^T*Q*x_{N} + \sum_{i=0}^{N-1} x_{i}^T*Q*x_{i} + u_{i}^T*R*u_{i}'>
-$J = {{x_{N}^T*Q}*x_{N}} + {u_{i}^T*R}*u_{i}$
-
-$$J = {x_{N}^T*Q}*x_{N}+ {\sum_{i=0}^{N-1}} {x_{i}^T*Q}*x_{i} + {u_{i}^T*R}*u_{i}$$
+<img src = 'assets/CodeCogsEqn.png'>
 
 The function can be found in the ipynb file with the following name:
 ```python
