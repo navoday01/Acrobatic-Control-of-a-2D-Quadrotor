@@ -54,3 +54,10 @@ $$u_n^\star = \begin{bmatrix}\frac{mg}{2}\\
 ![Alt text](assets/3.2.png)|![Alt text](assets/3.4.png)
  :--:|:--:
   *without perturbations* |*with perturbations*
+  
+## Acrobatic Controller using iLQR  
+
+### Plots for doing full flip
+![Alt text](assets/4.3.png)|![Alt text](assets/4.4.png)
+ :--:|:--:
+  *States* |*Controls*
