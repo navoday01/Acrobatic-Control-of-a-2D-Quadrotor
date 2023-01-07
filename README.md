@@ -51,6 +51,6 @@ $$u_n^\star = \begin{bmatrix}\frac{mg}{2}\\
   *without perturbations* |*with perturbations*
 
 ###Plots of controls for following circular trajectory
-![Alt text](assets/3.2.png)|![Alt text](assets/3.2.png)
+![Alt text](assets/3.2.png)|![Alt text](assets/3.4.png)
  :--:|:--:
   *without perturbations* |*with perturbations*
