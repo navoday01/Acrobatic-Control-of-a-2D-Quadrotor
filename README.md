@@ -8,3 +8,6 @@ Acrobatic control of a 2D quadrotor refers to the ability of the quadrotor to pe
   
 </p>  
 
+![Alt text](assets/quadrotorcircle.gif)
+ :--:
+  *Following Trajectory* 
