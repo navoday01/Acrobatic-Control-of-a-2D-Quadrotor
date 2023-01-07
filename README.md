@@ -41,6 +41,7 @@ $$z_n^\star = \begin{bmatrix}\cos{\frac{2\pi*1000}{n}} \\
 0\end{bmatrix}$$
 
 desired control was taken to as - 
+
 $$u_n^\star = \begin{bmatrix}\frac{mg}{2}\\ 
 \frac{mg}{2}\end{bmatrix}$$
 
