@@ -63,7 +63,7 @@ The equation of time-varying cost function is given by :
 $$J = (x_{N}^T)*Q*x_{N} + \sum_{i=0}^{N-1} (x_{i}^T)*Q*x_{i} + (u_{i}^T)*R*u_{i}$$
 
 The function can be found in the ipynb file with the following name:
-```python
+```
  compute_cost(z, u, horizon_length):
 ``` 
 
@@ -76,7 +76,7 @@ $$q = \frac{\partial J}{\partial x} = Q * (x^* - x_{desired})$$
 $$r = \frac{\partial J}{\partial u} = R * (u^* - u_{desired})$$
 
 The function can be found in the ipynb file with the following name:
-```python
+```
  get_quadratic_approximation_cost(z, u, horizon_length):
 ```
 
