@@ -63,9 +63,9 @@ The equation of time-varying cost function is given by :
 $$J = (x_{N}^T)*Q*x_{N} + \sum_{i=0}^{N-1} (x_{i}^T)*Q*x_{i} + (u_{i}^T)*R*u_{i}$$
 
 The function can be found in the ipynb file with the following name:
-\begin{verbatim}
+```python
  compute_cost(z, u, horizon_length):
-\end{verbatim} 
+``` 
 
 The quadratic approximation is used to find the value of Q, q, R, and r.
 Q and R are the hessian while q and r are the jacobians of cost function J.
@@ -76,9 +76,9 @@ $$q = \frac{\partial J}{\partial x} = Q * (x^* - x_{desired})$$
 $$r = \frac{\partial J}{\partial u} = R * (u^* - u_{desired})$$
 
 The function can be found in the ipynb file with the following name:
-\begin{verbatim}
+```python
  get_quadratic_approximation_cost(z, u, horizon_length):
-\end{verbatim} 
+```
 
 ### Plots for doing full flip without perturbations
 ![Alt text](assets/4.3.png)|![Alt text](assets/4.4.png)
