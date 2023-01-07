@@ -80,6 +80,10 @@ The function can be found in the ipynb file with the following name:
 ```python
  get_quadratic_approximation_cost(z, u, horizon_length):
 ```
+The function for iLQR algorithm can be found in the ipynb file with the following name:
+```python
+ solve_iLQR(A, B, Q, R, q, r, N):
+```
 
 ### Plots for doing full flip without perturbations
 ![Alt text](assets/4.3.png)|![Alt text](assets/4.4.png)
