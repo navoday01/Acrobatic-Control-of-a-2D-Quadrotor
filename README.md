@@ -45,4 +45,12 @@ desired control was taken to as -
 $$u_n^\star = \begin{bmatrix}\frac{mg}{2}\\ 
 \frac{mg}{2}\end{bmatrix}$$
 
+###Plots of States for following circular trajectory 
+![Alt text](assets/3.1.png)|![Alt text](assets/3.3.png)
+ :--:|:--:
+  *without perturbations* |*with perturbations*
 
+###Plots of controls for following circular trajectory
+![Alt text](assets/3.2.png)|![Alt text](assets/3.2.png)
+ :--:|:--:
+  *without perturbations* |*with perturbations*
