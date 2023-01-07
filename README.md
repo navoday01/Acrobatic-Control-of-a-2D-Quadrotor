@@ -17,10 +17,10 @@ For the Linearized Quadratic controller, we must compute the value of A and B at
 To make quadrotor follow a trajectory first system dynamics have to be linearized around the desired states and desired controls are different time steps.
 
 Linearized system dynamics can be written as - 
-$$\bar{x_{n+1}} = A_n\Bar{x_{n}} + B_n\Bar{u_{n}}$$
+$$\bar{x_{n+1}} = A_n\bar{x_{n}} + B_n\bar{u_{n}}$$
 where,
 
-$A_n =  \frac{\partial f}{\partial x}$ linearized around $x_{n}^*, u_{n}^*$, 
+$$A_n =  \frac{\partial f}{\partial x}$ linearized around $x_{n}^*, u_{n}^*$$, 
 
 $B_n =  \frac{\partial f}{\partial u}$ linearized around $x_{n}^*, u_{n}^*$, 
 
