@@ -8,7 +8,7 @@ Acrobatic control of a 2D quadrotor refers to the ability of the quadrotor to pe
 
 ![Alt text](assets/quadrotorcircle.gif)|![Alt text](assets/quadrotoracrobatic.gif)
  :--:|:--:
-  *Following Trajectory* |*Doing Flip*
+  *Following Trajectory using LQR* |*Doing Full Flip using iLQR*
   
 ## Tracking Controller using LQR
 
