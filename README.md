@@ -20,7 +20,7 @@ Linearized system dynamics can be written as -
 $$\bar{x_{n+1}} = A_n\bar{x_{n}} + B_n\bar{u_{n}}$$
 where,
 
-$A_n =  \frac{\partial f}{\partial x}$ linearized around $x_{n}^{*}, u_{n}^{*}$, 
+$A_n =  \frac{\partial f}{\partial x}$ linearized around $x_{n}^\star, u_{n}^\star$, 
 
 $B_n =  \frac{\partial f}{\partial u}$ linearized around $x_{n}^{*}, u_{n}^{*}$, 
 
