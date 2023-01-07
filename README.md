@@ -59,8 +59,9 @@ $$u_n^\star = \begin{bmatrix}\frac{mg}{2}\\
 The cost function computes the total cost of trajectory $x$ with control trajectory $u$. It consists of two parts, i.e. cost to go and terminal cost. This cost function will be used in the next steps to compute $Q, R, q, r$ using Hessian and Jacobian.
 
 The equation of time-varying cost function is given by :
-
+<p align = 'center'>
 <img src = 'assets/CodeCogsEqn.png'>
+</p> 
 
 The function can be found in the ipynb file with the following name:
 ```python
