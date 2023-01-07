@@ -22,15 +22,15 @@ where,
 
 $A_n =  \frac{\partial f}{\partial x}$ linearized around $x_{n}^\star, u_{n}^\star$, 
 
-$B_n =  \frac{\partial f}{\partial u}$ linearized around $x_{n}^{*}, u_{n}^{*}$, 
+$B_n =  \frac{\partial f}{\partial u}$ linearized around $x_{n}^\star, u_{n}^\star$, 
 
-$$x_{n}^*, u_{n}^*$$  are the desired state and desired control to follow the trajectory. 
+$x_{n}^\star, u_{n}^\star$  are the desired state and desired control to follow the trajectory. 
 
 Cost function for controller can be written as -
-$$ \sum_{n=0}^{N} (x_n - x^*_n)^TQ_n(x_n-x^*_n) + (u_n-u^*_n)^TR_n(u_n-u^*_n)$$
+$$ \sum_{n=0}^{N} (x_n - x^\star_n)^TQ_n(x_n-x^\star_n) + (u_n-u^\star_n)^TR_n(u_n-u^\star_n)$$
 
 To make quadrotor follow a circle desired state at different time steps
-$$z_n^* = \begin{bmatrix}\cos{\frac{2\pi*1000}{n}} \\
+$$z_n^\star = \begin{bmatrix}\cos{\frac{2\pi*1000}{n}} \\
 0\\
 \sin{\frac{2\pi*1000}{n}} \\
 0\\0\\0\end{bmatrix}$$
